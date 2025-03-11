@@ -1,68 +1,51 @@
+/* style.css */
+
+/* Reset some default styles */
 body {
-    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
-    color: #343a40;
-    text-align: center;
+    font-family: Arial, sans-serif; /* Sets the font for the entire page */
+    background-color: #f4f4f4; /* Light gray background color */
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
+/* Header styles */
+header {
+    background-color: #333; /* Dark background for header */
+    color: white; /* White text color */
+    padding: 20px; /* Padding around header content */
+    text-align: center; /* Center align text */
 }
 
-.header {
-    background-color: #212529;
-    color: white;
-    padding: 20px 0;
-    font-size: 28px;
-    font-weight: bold;
+/* Section styles */
+section {
+    padding: 20px; /* Padding around sections */
+    margin: 10px; /* Margin between sections */
+    background-color: white; /* White background for sections */
+    border-radius: 5px; /* Rounded corners for sections */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
 }
 
-.nav {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 15px 0;
-    background: #343a40;
+/* About section image styles */
+#about img {
+    border-radius: 50%; /* Make the image circular */
+    border: 2px solid #333; /* Border around the image */
 }
 
-.nav a {
-    text-decoration: none;
-    color: #f8f9fa;
-    font-size: 18px;
-    font-weight: bold;
-    transition: color 0.3s;
+/* Footer styles */
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text color in footer */
+    text-align: center; /* Center align footer text */
+    padding: 10px; /* Padding around footer content */
+    position: relative;
 }
 
-.nav a:hover {
-    color: #ffc107;
+/* Link styles */
+a {
+    color: #007BFF; /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
 }
 
-.content {
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-}
-
-h2 {
-    color: #007bff;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-.footer {
-    margin-top: 30px;
-    padding: 15px;
-    background: #212529;
-    color: white;
-    font-size: 14px;
+a:hover {
+    text-decoration: underline; /* Underline on hover for links */
 }
