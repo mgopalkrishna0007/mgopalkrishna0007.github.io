@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: M Gopal
+first_name: M Gopal Krishna
 middle_name:
-last_name: Krishna
+last_name: 
 contact_note: >
   E-mail: mgopalkrishna0007@gmail.com, Ph.no: +91-9315934726
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -46,7 +46,7 @@ repo_trophies:
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
+navbar_fixed: false
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
